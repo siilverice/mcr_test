@@ -1,9 +1,9 @@
 import unittest
 
-from item1.wub import string_decoder
+from item1.string_decoder import string_decoder
 
 
-class MyTestCase(unittest.TestCase):
+class TestStringDecoder(unittest.TestCase):
     expected_result = "A B C"
 
     def test_WUB_should_be_replaced_by_1_space(self):

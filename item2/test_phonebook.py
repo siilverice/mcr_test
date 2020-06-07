@@ -3,7 +3,7 @@ import unittest
 from item2.phonebook import phone
 
 
-class MyTestCase(unittest.TestCase):
+class TestPhoneBookFunction(unittest.TestCase):
     dr = "/+1-541-754-3010 156 Alphand_St. <J Steeve>\n 133, Green, Rd. <E Kustur> NY-56423 ;+1-541-914-3010\n" \
          + "+1-541-984-3012 <P Reed> /PO Box 530; Pollocksville, NC-28573\n :+1-321-512-2222 <Paul Dive> Sequoia Alley PQ-67209\n" \
          + "+1-741-984-3090 <Peter Reedgrave> _Chicago\n :+1-921-333-2222 <Anna Stevens> Haramburu_Street AA-67209\n" \
